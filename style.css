@@ -1,0 +1,23 @@
+.chessBoard {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  border: 1px solid lightblue;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  box-sizing: border-box;
+  border: 1px solid lightblue;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 66px;
+  user-select: none;
+}
