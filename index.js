@@ -53,7 +53,7 @@ function initGame() {
           box.style.color = 'red';
         }
         gameState.result = checkWin();
-        console.log(gameState.result)
+        //console.log(gameState.result)
         gameState.moveCount++;
         document.querySelector('.moveCount').innerText = gameState.moveCount;
         document.querySelector('.gameResultDisplay').innerText = gameState.result ? gameState.result + " 赢了" : "胜负未分";
